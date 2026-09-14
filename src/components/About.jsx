@@ -1,5 +1,6 @@
 import { Server, Brain, Layout, Cloud } from 'lucide-react'
 import { about } from '../data/portfolioData'
+import profileImg from '../assets/suresh.png'
 import './About.css'
 
 const iconMap = { Server, Brain, Layout, Cloud }
@@ -22,7 +23,16 @@ export default function About() {
           {/* Summary Card */}
           <div className="about__summary card">
             <div className="about__summary-header">
-              <div className="about__summary-avatar">SR</div>
+              <div className="about__summary-avatar">
+                <img
+                  src={profileImg}
+                  alt="Suresh Reddy T"
+                  className="about__summary-avatar-img"
+                  onError={(e) => {
+                    e.target.style.display = 'none';
+                  }}
+                />
+              </div>
               <div>
                 <h3 className="about__summary-name">Suresh Reddy T</h3>
                 <p className="about__summary-role">Python Full Stack & AI Developer</p>

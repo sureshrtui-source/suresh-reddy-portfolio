@@ -1,5 +1,6 @@
 import { Mail, ArrowDown, Download, Eye, ChevronRight } from 'lucide-react'
 import { personal } from '../data/portfolioData'
+import profileImg from '../assets/suresh.png'
 import './Hero.css'
 
 const techPills = ['Python', 'FastAPI', 'Django', 'React.js', 'RAG / LLMs', 'PostgreSQL', 'Docker', 'Azure']
@@ -126,7 +127,16 @@ export default function Hero() {
         <div className="hero__visual" aria-hidden="true">
           <div className="hero__avatar-container animate-float">
             <div className="hero__avatar">
-              <div className="hero__avatar-inner">
+              <img
+                src={profileImg}
+                alt="Suresh Reddy T"
+                className="hero__avatar-img"
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                  e.target.nextSibling.style.display = 'flex';
+                }}
+              />
+              <div className="hero__avatar-inner" style={{ display: 'none' }}>
                 <span className="hero__avatar-initials">SR</span>
               </div>
             </div>
