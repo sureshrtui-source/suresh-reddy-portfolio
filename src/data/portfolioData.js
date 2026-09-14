@@ -194,6 +194,28 @@ export const projects = [
     demo: null,
     highlight: false,
   },
+  {
+    id: 5,
+    title: "AI-Powered SEO Audit Automation Platform",
+    category: "AI & LLM",
+    categoryColor: "#f472b6",
+    problem: "Manual SEO audits couldn't scale to tens of thousands of monthly orders while staying accurate and cost-trackable.",
+    description:
+      "Developed and deployed a production AI-powered SEO audit automation platform at Vsplash Tech Labs. Built a RAG (FAISS) pipeline to extract, chunk, and embed PDF content for semantic search, with hybrid retrieval surfacing relevant SEO guidelines to boost LLM response accuracy. Automated AI workflows built with LangChain and LangGraph analyze SEO issues, retrieve audit context, select tools/APIs, and generate recommendations. MLflow (via Docker) tracks LLM observability — latency, token usage, and execution cost — with logs persisted to MongoDB, while Redis powers async background processing and AWS S3 stores generated audit reports at scale.",
+    tech: ["Python", "FastAPI", "GenAI", "LLM", "RAG", "FAISS", "LangChain", "LangGraph", "Docker", "MLflow", "Redis", "AWS S3", "MySQL", "Nginx", "CI/CD"],
+    features: [
+      "RAG (FAISS) pipeline: PDF extraction, chunking, embeddings & vector search",
+      "Hybrid retrieval for SEO guidelines and contextual audit data",
+      "Automated AI workflows with LangChain/LangGraph for SEO analysis & recommendations",
+      "MLflow-based LLM observability: latency, token usage & cost tracking (logs in MongoDB)",
+      "Async/background processing with Redis for large-scale audit operations",
+      "AWS S3 storage for pre-audit and post-audit reports",
+      "Processes 20,000+ audit orders/month, ~240,000+ orders delivered",
+    ],
+    github: "https://github.com/Suresh-5610",
+    demo: null,
+    highlight: true,
+  },
 ];
 
 // ─── EXPERIENCE ───────────────────────────────────────────────
