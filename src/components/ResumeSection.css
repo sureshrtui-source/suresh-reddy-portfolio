@@ -1,0 +1,107 @@
+/* ── Resume Section ─────────────────────────────────────────── */
+
+.resume__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 36px 40px;
+  max-width: 860px;
+  margin: 0 auto 32px;
+  flex-wrap: wrap;
+}
+
+.resume__info {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1;
+  min-width: 0;
+}
+
+.resume__file-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 68px;
+  height: 68px;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  border-radius: var(--radius-lg);
+  color: var(--accent-primary);
+  flex-shrink: 0;
+  animation: pulse-glow 3s ease infinite;
+}
+
+.resume__file-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+  font-family: var(--font-mono);
+}
+
+.resume__file-meta {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.resume__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.resume__actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.resume__download-btn {
+  font-size: 1rem;
+  padding: 14px 28px;
+  box-shadow: 0 4px 24px rgba(56, 189, 248, 0.35);
+}
+
+/* CTA Banner */
+.resume__cta {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 24px 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.resume__cta-text {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+  flex: 1;
+  min-width: 200px;
+}
+
+/* ── Responsive ─────────────────────────────────────────────── */
+@media (max-width: 700px) {
+  .resume__card {
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+  }
+  .resume__info { flex-direction: column; gap: 16px; }
+  .resume__actions { width: 100%; }
+  .resume__actions .btn { flex: 1; justify-content: center; }
+  .resume__cta { flex-direction: column; text-align: center; padding: 20px 24px; }
+}

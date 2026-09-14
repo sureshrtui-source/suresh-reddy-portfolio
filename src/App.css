@@ -1,0 +1,10 @@
+/* App-level styles — section transitions */
+.app {
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  transition: background-color var(--transition-base);
+}
+
+main {
+  position: relative;
+}
