@@ -154,24 +154,6 @@ export default function Hero() {
               <span>⚛️</span> React
             </div>
           </div>
-
-          {/* Stats Row */}
-          <div className="hero__stats">
-            <div className="hero__stat">
-              <span className="hero__stat-value">3+</span>
-              <span className="hero__stat-label">Years Experience</span>
-            </div>
-            <div className="hero__stat-divider" />
-            <div className="hero__stat">
-              <span className="hero__stat-value">10+</span>
-              <span className="hero__stat-label">Projects Built</span>
-            </div>
-            <div className="hero__stat-divider" />
-            <div className="hero__stat">
-              <span className="hero__stat-value">15+</span>
-              <span className="hero__stat-label">Tech Skills</span>
-            </div>
-          </div>
         </div>
       </div>
 
