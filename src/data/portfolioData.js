@@ -21,7 +21,7 @@ export const personal = {
 
   // ✏️ Update with your actual social URLs
   github: "https://github.com/Suresh-5610",
-  linkedin: "https://linkedin.com/in/suresh-reddy-t",  // Update with your actual LinkedIn URL
+  linkedin: "https://www.linkedin.com/in/suresh-reddy-thappeta-a00a76137/",
 
   // Resume path (lives in public/assets/)
   resumePath: "./assets/Suresh_Reddy_T_Resume.pdf",

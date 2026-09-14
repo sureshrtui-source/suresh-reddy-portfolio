@@ -63,7 +63,7 @@ export default function Contact() {
       id: 'contact-linkedin-card',
       icon: <LinkedinIcon />,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/suresh-reddy-t',
+      value: 'linkedin.com/in/suresh-reddy-thappeta',
       href: personal.linkedin,
       color: '#818cf8',
     },
