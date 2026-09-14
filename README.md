@@ -205,9 +205,9 @@ GitHub Actions will automatically rebuild and redeploy within ~2 minutes.
 ## 📞 Contact
 
 **Suresh Reddy T**
-- 📧 Email: sureshrt438@gmail.com
+- 📧 Email: sureshrt.ui@gmail.com
 - 💼 GitHub: [github.com/Suresh-5610](https://github.com/Suresh-5610)
-- 🔗 LinkedIn: [linkedin.com/in/suresh-reddy-t](https://linkedin.com/in/suresh-reddy-t)
+- 🔗 LinkedIn: [linkedin.com/in/suresh-reddy-thappeta](https://www.linkedin.com/in/suresh-reddy-thappeta-a00a76137/)
 
 ---
 

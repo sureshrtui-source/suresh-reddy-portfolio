@@ -15,7 +15,7 @@ export const personal = {
   availability: "Open to Opportunities",
 
   // ✏️ Update with your actual contact details
-  email: "sureshrt438@gmail.com",           // Replace with preferred recruiter email
+  email: "sureshrt.ui@gmail.com",           // Replace with preferred recruiter email
   phone: "+91 8985458690",                   // Replace or remove if not comfortable sharing
   location: "India",
 
